@@ -14,6 +14,7 @@ namespace StaticCons
         static string Bankname;
         static string BankLoc;
         static long BankPhone;
+        static string Bankpin;
         //static varibale are used to assign static values under static constructor.
 
         static Bank()
