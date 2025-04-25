@@ -22,6 +22,7 @@ namespace StaticCons
             Bankname = "ICICI";
             BankLoc = "Hyd";
             BankPhone = 12345687970;
+            Bankpin = "500011";
         }
         internal Bank(int accno, string accname,double bal)
         {
@@ -60,6 +61,7 @@ namespace StaticCons
             Console.WriteLine("Bank name is"+Bankname);
             Console.WriteLine("Bank loc is "+BankLoc);
             Console.WriteLine("Bank phone is"+BankPhone);
+            Console.WriteLine("Bank pin is"+Bankpin);
         }
     }
     internal class Program
